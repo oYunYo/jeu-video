@@ -1,5 +1,5 @@
 <?php
-     abstract class Animal{
+     abstract class Animal implements AnimalInterface {
         private $jeuVideo;
         public $nom;
         protected $force;

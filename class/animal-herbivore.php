@@ -1,6 +1,6 @@
 <?php
 
-    class AnimalHerbivore extends Animal {
+    class AnimalHerbivore extends Animal implements AnimalHerbivoreInterface {
 
         public function __construct($jeuVideo, $nom, $force, $distanceObjectif)
         {

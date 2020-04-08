@@ -1,5 +1,5 @@
 <?php
-    class JeuxVideo {
+    abstract class JeuxVideo {
         public $personnages;
         public $editor;
         public $animals;

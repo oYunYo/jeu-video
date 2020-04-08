@@ -25,8 +25,9 @@
     // }
 
 
-
+ 
     require_once 'include_class.php';
+    require_once 'include_interface.php';
 
     $antilope = new AnimalHerbivore('AnimalDeCourse', 'antilope', 12, 100);
     $guepard = new AnimalCarnivore('AnimalDeCourse', 'guépard', 12, 100);

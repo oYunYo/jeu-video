@@ -7,4 +7,5 @@ require_once 'class/personnage-mechant.php';
 require_once 'class/animal.php';
 require_once 'class/animal-carnivore.php';
 require_once 'class/animal-herbivore.php';
+require_once 'class/animal-omnivore.php';
 ?>

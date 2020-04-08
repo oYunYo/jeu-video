@@ -1,6 +1,6 @@
 <?php
-    class Animal{
-        public $jeuVideo;
+     abstract class Animal{
+        private $jeuVideo;
         public $nom;
         protected $force;
         public $distanceObjectif;
@@ -53,7 +53,6 @@
                 echo('l\'animal prend son temps...');
             }
         }
-
     }
 ?>
 
